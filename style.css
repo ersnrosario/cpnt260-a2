@@ -1,0 +1,54 @@
+.card {
+  max-width: 40ch;
+  width: 275px;
+  font-family: 'Caveat', cursive;
+  text-align: left;
+  display: inline-block;
+  margin-top: 100px;
+  margin-right: 20px;
+  margin-left: 20px;
+  top: 50%;
+}
+
+
+body {
+  background-color: #e9ebea;
+  text-align: center;
+}
+
+.card-text{
+  font-family:'Caveat', cursive;
+  font-size: 14px;
+  line-height: 1.3;
+  padding-top: 10px;
+  padding-bottom: .1px;
+  padding-right: 35px;
+  padding-left: 35px;
+  margin: auto;
+  background-color: #ffffff;
+  color: black;
+}
+
+
+.card-img {
+  display: block;
+  object-fit: scale-down;
+  max-width: 100%;
+}
+
+.card-title {
+  color: #5e4e33;
+  background-color: white;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  font-family:'Caveat', cursive;
+  font-size: 40px;
+  line-height: 1; 
+}
+
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+}
